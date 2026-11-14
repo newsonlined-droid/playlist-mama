@@ -2,6 +2,7 @@
 #PLAYLIST:M3U-Karnei4
 #ICON:https://vgif.ru/gifs/154/vgif-ru-24627.gif
 #BACKGROUND-IMAGE:https://Karnei4.github.io/s/png/fon-info_optimized.jpg
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Центральные" tvg-logo="https://iptvx.one/icn/rentv.png",РЕН ТВ
 #EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
@@ -9,6 +10,10 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_HLS/variant.m3u8 
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Центральные" tvg-logo="https://iptvx.one/icn/rentv.png",РЕН ТВ (+2)
+
+
+
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="http://fe-ct.svc.iptv.rt.ru/images/broadcastChannel1534508764514.png",Че
 #EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8 
@@ -69,6 +74,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2&offset
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="https://iptvx.one/icn/che.png",Че -16ч
 #EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2&offset=-61200
+
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Фильмы" tvg-logo="http://fe-mos.svc.iptv.rt.ru/images/broadcastChannel1557144846290.png",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=ru.rt.video.player.hls.HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8 
